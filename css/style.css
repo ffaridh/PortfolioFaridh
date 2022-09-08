@@ -60,6 +60,9 @@ section#blog h1 {
 section#blog {
   color: #000;
 }
+section#contact {
+    background-color: #d9d9d9;
+  }
 .portfolio-image {
   width: 100%;
 }
@@ -95,10 +98,9 @@ section#about p {
 .team {
   margin: 4em 0;
   position: relative;
-  background-color: #d4d4d4;
 }
 .team h1 {
-  color: #f97300;
+  color: #e95b5b;
   margin: 2em;
 }
 .team .item {
@@ -110,7 +112,6 @@ section#about p {
   color: #fff;
   text-align: center;
   border-top-right-radius: 93%;
-  transition: 0.3s ease-in-out;
   position: absolute;
   width: 88%;
   bottom: 24px;
@@ -123,4 +124,33 @@ section#about p {
   padding: 5em;
   top: 0;
   border-top-right-radius: 0;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #060606!important;
+    padding-left: 75px;
+}
+.box-tiga {
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    width: 1050px;
+    margin-left: 120px;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  .box-tiga button {
+    font-family: sans-serif;
+    font-size: 10px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 13px 490px;
+    margin-left: -4px;
+  }
+  element.style {
+    width: 1000px;
+    height: 200px;
 }
