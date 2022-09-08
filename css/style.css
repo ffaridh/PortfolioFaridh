@@ -46,9 +46,6 @@ section#blog {
     display: flex;
     justify-content: center;
 }
-.navbar-collapse {
-    justify-content: end;
-}
 .navbar {
     position: fixed;
     z-index: 99;
